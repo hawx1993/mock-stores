@@ -1,7 +1,7 @@
 {
     "name": "mock-stores",
-    "version": "0.0.1",
-    "description": "yet another easy data-mock  ",
+    "version": "0.0.2",
+    "description": "yet another easy and delightful data mock solutions",
     "main": "index.js",
     "scripts": {
     },

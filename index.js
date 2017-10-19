@@ -10,7 +10,7 @@ function importAll(r) {
 });
 }
 
-importAll(require.context('../mock', true, /\.json|\.js$/));
+importAll(require.context('../../mock', true, /\.json|\.js$/));
 
 const Store = isDev ? cache : ''
 
