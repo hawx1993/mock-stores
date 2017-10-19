@@ -1,10 +1,8 @@
 {
     "name": "mock-stores",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "yet another easy and delightful data mock solutions",
     "main": "index.js",
-    "scripts": {
-    },
     "repository": {
         "type": "git",
         "url": "https://github.com/hawx1993/mock-stores.git"
