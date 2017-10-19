@@ -1,0 +1,7 @@
+node_modules
+*.log
+/dist
+.idea/
+.vscode
+# eslint
+.DS_Store
