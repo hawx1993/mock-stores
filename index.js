@@ -4,10 +4,10 @@ const isDev = env === 'development';
 
 const cache = {};
 function importAll(r) {
-  r.keys().forEach((key) => {
-    const fileName = key.split('/').pop().replace(/\..+$/, '');
-  cache[fileName] = r(key)
-});
+  r.keys().forEach(function (key) {
+      const fileName = key.split('/').pop().replace(/\..+$/, '');
+      cache[fileName] = r(key)
+  });
 }
 
 importAll(require.context('../../mock', true, /\.json|\.js$/));
